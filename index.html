@@ -1,0 +1,2922 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RANGER RAPTOR COM QUASE R$100MIL EM ACESSÓRIOS</title>
+  <link rel="icon" type="image/webp" href="images/logo.webp">
+  <!-- PRELOAD: primeira imagem do carousel por dispositivo -->
+  <link rel="preload" as="image" href="images/car1.webp" type="image/webp" media="(max-width: 768px)" />
+  <link rel="preload" as="image" href="images/car1.webp" type="image/webp" media="(min-width: 769px)" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://api.freepaybrasil.com" />
+  <link rel="preconnect" href="https://quickchart.io" />
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      /* Tema Claro (Padrão) */
+      --bg-body: #f4f6f8;
+      --bg-paper: #ffffff;
+      --bg-header: #000000;
+      --bg-section: #f4f6f8;
+      --text-primary: #212529;
+      --text-secondary: #637381;
+      --border-color: #dfe3e8;
+      --card-bg: #ffffff;
+      --input-bg: #ffffff;
+      --input-border: #dfe3e8;
+      --modal-bg: #ffffff;
+      --promo-bg: #212529;
+      --promo-text: #ffffff;
+      --promo-item-bg: #1b4332;
+      --promo-item-border: #2d6a4f;
+      --promo-item-text: #95d5b2;
+      --info-box-bg: linear-gradient(180deg, #1b4332 0%, #081c15 100%);
+      --info-text-color: #d8f3dc;
+    }
+
+    [data-theme="dark"] {
+      /* Tema Escuro */
+      --bg-body: #121212;
+      --bg-paper: #1e1e1e;
+      --bg-header: #000000;
+      --bg-section: #2c2c2c;
+      --text-primary: #f4f6f8;
+      --text-secondary: #919eab;
+      --border-color: #333333;
+      --card-bg: #1e1e1e;
+      --input-bg: #2c2c2c;
+      --input-border: #454f5b;
+      --modal-bg: #1e1e1e;
+      --promo-bg: #1e1e1e;
+      --promo-text: #f4f6f8;
+      --promo-item-bg: #0a1f16;
+      --promo-item-border: #1b4332;
+      --promo-item-text: #52b788;
+      --info-box-bg: linear-gradient(180deg, #0a1f16 0%, #000000 100%);
+      --info-text-color: #95d5b2;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Public Sans', sans-serif;
+      background-color: var(--bg-body);
+      color: var(--text-primary);
+      min-height: 100vh;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    /* ===== HEADER ===== */
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1100;
+      background-color: #000000;
+      box-shadow: 0 2px 4px -1px rgba(255, 250, 250, 0.2), 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12);
+    }
+
+    .header-toolbar {
+      min-height: 64px;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header-container {
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .header-logo {
+      height: 48px;
+      width: auto;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .theme-toggle-btn {
+      background: rgba(255,255,255,0.1);
+      border: none;
+      color: white;
+      cursor: pointer;
+      padding: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      transition: background-color 0.2s;
+    }
+
+    .theme-toggle-btn:hover {
+      background-color: rgba(255,255,255,0.2);
+    }
+
+    .header-menu-btn {
+      background: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+      padding: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+    }
+
+    .header-menu-btn:hover {
+      background-color: rgba(255,255,255,0.08);
+    }
+
+    /* ===== MAIN CONTENT ===== */
+    .main-content {
+      padding-top: 64px;
+      min-height: 100vh;
+    }
+
+    .page-wrapper {
+      max-width: 680px;
+      margin: 0 auto;
+      background-color: var(--bg-paper);
+      min-height: calc(100vh - 64px);
+    }
+
+    /* ===== CAROUSEL ===== */
+    .carousel-container {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      background-color: #000;
+    }
+
+    .carousel-slides {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+
+    .carousel-slide {
+      min-width: 100%;
+      position: relative;
+    }
+
+    /* picture precisa de display:block para não gerar espaço extra */
+    .carousel-slide picture {
+      display: block;
+      width: 100%;
+    }
+    .carousel-slide img {
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .carousel-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 60%, transparent 100%);
+      padding: 16px;
+      color: white;
+    }
+
+    .carousel-badge-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 4px;
+    }
+
+    .badge-adquira {
+      background-color: #198754;
+      color: white;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      animation: pulse-light 2s infinite;
+    }
+
+    @keyframes pulse-light {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(25, 135, 84, 0.7);
+      }
+      70% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 6px rgba(25, 135, 84, 0);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(25, 135, 84, 0);
+      }
+    }
+
+    .badge-ltp {
+      background-color: rgba(255,255,255,0.15);
+      color: rgba(255,255,255,0.85);
+      font-size: 10px;
+      font-weight: 500;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .carousel-title {
+      font-size: 22px;
+      font-weight: 800;
+      color: white;
+      text-transform: uppercase;
+      line-height: 1.2;
+      margin-bottom: 2px;
+    }
+
+    .carousel-subtitle {
+      font-size: 12px;
+      font-weight: 500;
+      color: rgba(255,255,255,0.9);
+    }
+
+    .carousel-counter {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      background-color: rgba(0,0,0,0.5);
+      color: white;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 12px;
+      backdrop-filter: blur(4px);
+    }
+
+    .carousel-nav-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: rgba(255,255,255,0.15);
+      border: none;
+      color: white;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(4px);
+      z-index: 10;
+      transition: background-color 0.2s;
+    }
+
+    .carousel-nav-btn:hover {
+      background-color: rgba(255,255,255,0.3);
+    }
+
+    .carousel-nav-prev { left: 8px; }
+    .carousel-nav-next { right: 8px; }
+
+    .carousel-dots {
+      position: absolute;
+      bottom: 8px;
+      right: 12px;
+      display: flex;
+      gap: 4px;
+    }
+
+    .carousel-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      border: none;
+      background-color: rgba(255,255,255,0.5);
+      cursor: pointer;
+      padding: 0;
+      transition: background-color 0.2s;
+    }
+
+    .carousel-dot.active {
+      background-color: white;
+    }
+
+    /* ===== PROGRESS SECTION ===== */
+    .progress-section {
+      background-color: #000000;
+      padding: 10px 16px 8px;
+      color: white;
+    }
+
+    .progress-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 6px;
+    }
+
+    .meus-titulos-btn {
+      background: none;
+      border: none;
+      color: rgba(255,255,255,0.8);
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      transition: background-color 0.2s;
+    }
+
+    .meus-titulos-btn:hover {
+      background-color: rgba(255,255,255,0.1);
+    }
+
+    .progress-percent {
+      font-size: 18px;
+      font-weight: 800;
+      color: white;
+      text-align: center;
+      margin-bottom: 8px;
+      display: none;
+    }
+
+    .progress-bar-container {
+      width: 100%;
+      height: 40px;
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 6px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #fbff00 0%, #ffa600 100%);
+      border-radius: 6px;
+      width: 46.04%;
+      transition: width 0.6s ease;
+      position: relative;
+    }
+
+    .progress-bar-text {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 20px;
+      font-weight: 800;
+      color: white;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+      z-index: 10;
+      white-space: nowrap;
+      pointer-events: none;
+    }
+
+    /* ===== PRICE SECTION ===== */
+    .price-section {
+      background-color: #000000;
+      padding: 6px 16px 14px;
+      color: white;
+      text-align: center;
+    }
+
+    .price-label {
+      font-size: 12px;
+      color: rgba(255,255,255,0.7);
+      margin-bottom: 2px;
+    }
+
+    .price-value {
+      display: inline-block;
+      background-color: #198754;
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 4px 16px;
+      border-radius: 20px;
+    }
+
+    /* ===== PROMOTION & TIMER SECTION ===== */
+    .promo-container {
+      background-color: transparent; /* Fundo transparente para uniformidade */
+      padding: 12px 16px;
+      color: var(--text-primary);
+    }
+
+    .promo-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .promo-header h2 {
+      font-size: 18px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .promo-header span {
+      font-size: 13px;
+      color: var(--text-secondary);
+      font-weight: 400;
+    }
+
+    .promo-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .promo-item {
+      background: linear-gradient(135deg, #fbff00 0%, #fbff00 100%);
+      border: none;
+      border-radius: 6px;
+      padding: 10px 8px;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.1s, box-shadow 0.2s;
+      box-shadow: 0 2px 8px rgba(25, 135, 84, 0.3);
+    }
+
+    .promo-item:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(25, 135, 84, 0.4);
+    }
+
+    .promo-item:active {
+      transform: scale(0.98);
+    }
+
+    .promo-item-text {
+      font-size: 13px;
+      font-weight: 800;
+      color: #000000;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    }
+
+    .info-box {
+      background: var(--info-box-bg);
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+      border: 1px solid var(--promo-item-border);
+    }
+
+    .info-text {
+      font-size: 14px;
+      font-weight: 800;
+      line-height: 1.4;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      color: var(--info-text-color);
+    }
+
+    .info-text span.sos {
+      background-color: #bc4749;
+      color: white;
+      padding: 1px 4px;
+      border-radius: 4px;
+      font-size: 10px;
+      vertical-align: middle;
+      margin: 0 2px;
+    }
+
+    .timer-container {
+      background-color: rgba(255, 255, 255, 0.842);
+      border-radius: 30px;
+      padding: 10px 20px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 16px;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .timer-progress {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      background: #1b9b5b; /* Cor verde sólida para contraste */
+      width: 35%;
+      z-index: 1;
+    }
+
+    .timer-text {
+      position: relative;
+      z-index: 2;
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+
+    .promo-validity {
+      font-size: 13px;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 4px;
+    }
+
+    .promo-dates {
+      font-size: 11px;
+      color: rgba(255,255,255,0.7);
+    }
+
+    /* ===== PACKAGES SECTION ===== */
+    .packages-section {
+      padding: 14px 16px;
+      background-color: var(--bg-paper);
+    }
+
+    .packages-hint {
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-secondary);
+      margin-bottom: 10px;
+      padding: 8px 12px;
+      background-color: var(--bg-section);
+      border-radius: 8px;
+    }
+
+    .packages-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .package-btn {
+      background-color: #000000;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 14px 8px;
+      cursor: pointer;
+      text-align: center;
+      transition: background-color 0.2s, transform 0.1s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2px;
+    }
+
+    .package-btn:hover {
+      background-color: #343a40;
+      transform: translateY(-1px);
+    }
+
+    .package-btn:active {
+      transform: translateY(0);
+    }
+
+    .package-qty {
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    .package-price {
+      font-size: 13px;
+      color: rgba(255,255,255,0.7);
+      font-weight: 400;
+    }
+
+    .package-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      color: rgba(255,255,255,0.9);
+      margin-top: 2px;
+    }
+
+    /* ===== QUANTITY SELECTOR ===== */
+    .qty-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+
+    .qty-btn {
+      background: none;
+      border: 1.5px solid var(--border-color);
+      color: var(--text-secondary);
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      transition: border-color 0.2s, color 0.2s;
+      flex-shrink: 0;
+    }
+
+    .qty-btn:hover {
+      border-color: var(--text-primary);
+      color: var(--text-primary);
+    }
+
+    .qty-input-wrapper {
+      flex: 1;
+      position: relative;
+    }
+
+    .qty-input {
+      width: 100%;
+      height: 36px;
+      border: 1.5px solid var(--border-color);
+      background-color: var(--input-bg);
+      color: var(--text-primary);
+      border-radius: 8px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 600;
+      font-family: 'Public Sans', sans-serif;
+      outline: none;
+      transition: border-color 0.2s, background-color 0.3s, color 0.3s;
+    }
+
+    .qty-input:focus {
+      border-color: var(--text-primary);
+    }
+
+    /* ===== MAIN CTA BUTTON ===== */
+    .cta-btn {
+      width: 100%;
+      background-color: #198754;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 14px 20px;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: background-color 0.2s, transform 0.1s;
+      margin-bottom: 10px;
+      font-family: 'Public Sans', sans-serif;
+    }
+
+    .cta-btn:hover {
+      background-color: #157347;
+      transform: translateY(-1px);
+    }
+
+    .cta-btn:active {
+      transform: translateY(0);
+    }
+
+    .cta-btn-price {
+      font-size: 14px;
+      font-weight: 600;
+      opacity: 0.9;
+    }
+
+    /* ===== DESCRIPTION BUTTON ===== */
+    .desc-btn {
+      width: 100%;
+      background: none;
+      border: 1.5px dashed #dfe3e8;
+      color: var(--text-secondary);
+      border-radius: 8px;
+      padding: 10px 16px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: border-color 0.2s, color 0.2s;
+      font-family: 'Public Sans', sans-serif;
+      margin-bottom: 16px;
+    }
+
+    .desc-btn:hover {
+      border-color: #919eab;
+      color: var(--text-primary);
+    }
+
+    /* ===== DESCRIPTION TEXT ===== */
+    .desc-text {
+      display: none;
+      padding: 12px;
+      background-color: var(--bg-section);
+      border-radius: 8px;
+      font-size: 12px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+
+    .desc-text.visible {
+      display: block;
+    }
+
+    /* ===== SECTION HEADERS ===== */
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 12px 16px;
+      background-color: var(--bg-section);
+      border-top: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+      transition: background-color 0.3s;
+    }
+
+    .section-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .section-badge {
+      background-color: #dfe3e8;
+      color: var(--text-secondary);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 12px;
+    }
+
+    /* ===== TITLES PREMIADOS ===== */
+    .titles-list {
+      padding: 0 16px 8px;
+      background-color: var(--bg-paper);
+      transition: background-color 0.3s;
+    }
+
+    .title-row {
+      display: flex;
+      align-items: center;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--border-color);
+      gap: 8px;
+    }
+
+    .title-number {
+      background-color: var(--text-primary);
+      color: var(--bg-paper);
+      font-size: 13px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-family: 'Fira Code', monospace;
+      min-width: 80px;
+      text-align: center;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .title-number.winner {
+      background-color: #198754;
+    }
+
+    .title-prize {
+      flex: 1;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-primary);
+      transition: color 0.3s;
+    }
+
+    .title-winner {
+      font-size: 13px;
+      color: var(--text-secondary);
+      text-align: right;
+      transition: color 0.3s;
+    }
+
+    .title-winner.available {
+      color: #919eab;
+    }
+
+    /* ===== SHOW MORE BUTTON ===== */
+    .show-more-btn {
+      width: 100%;
+      background: none;
+      border: none;
+      color: #198754;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      padding: 10px 16px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 4px;
+      font-family: 'Public Sans', sans-serif;
+      border-top: 1px solid #f4f6f8;
+      background-color: #f9fafb;
+    }
+
+    .show-more-btn:hover {
+      background-color: var(--bg-section);
+    }
+
+    /* ===== HIDDEN ROWS ===== */
+    .title-row.hidden {
+      display: none;
+    }
+
+    /* ===== ROLETAS SECTION ===== */
+    .roletas-combos {
+      padding: 12px 16px;
+      background-color: var(--bg-paper);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .roleta-combo-card {
+      background: linear-gradient(135deg, #fbff00 0%, #fbff00 100%);
+      border-radius: 12px;
+      padding: 16px;
+      color: rgb(0, 0, 0);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      cursor: pointer;
+      transition: transform 0.1s, box-shadow 0.2s;
+      box-shadow: 0 2px 8px rgba(25, 135, 84, 0.3);
+    }
+
+    .roleta-combo-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(25, 135, 84, 0.4);
+    }
+
+    .roleta-combo-left {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .roleta-combo-label {
+      font-size: 11px;
+      opacity: 0.8;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .roleta-combo-qty {
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+
+    .roleta-combo-price {
+      font-size: 12px;
+      opacity: 0.85;
+    }
+
+    .roleta-combo-right {
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2px;
+    }
+
+    .roleta-combo-receive {
+      font-size: 12px;
+      opacity: 0.9;
+    }
+
+    .roleta-combo-count {
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+
+    .roleta-combo-desc {
+      font-size: 11px;
+      opacity: 0.75;
+      margin-top: 2px;
+      max-width: 180px;
+    }
+
+    /* ===== ROLETAS GANHADORES ===== */
+    .roletas-winners {
+      padding: 0 16px 8px;
+      background-color: var(--bg-paper);
+    }
+
+    .roleta-winner-row {
+      display: flex;
+      align-items: center;
+      padding: 8px 0;
+      border-bottom: 1px solid #f4f6f8;
+      gap: 8px;
+    }
+
+    .roleta-prize-badge {
+      background-color: var(--bg-section);
+      color: var(--text-primary);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .roleta-winner-name {
+      flex: 1;
+      font-size: 13px;
+      color: var(--text-secondary);
+      text-align: right;
+      transition: color 0.3s;
+    }
+
+    /* ===== SOCIAL SHARE ===== */
+    .social-section {
+      padding: 16px;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      background-color: var(--bg-paper);
+      border-top: 1px solid #f4f6f8;
+    }
+
+    .social-btn {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+
+    .social-btn:hover {
+      transform: scale(1.1);
+      opacity: 0.9;
+    }
+
+    .social-btn.facebook { background-color: #3b5998; }
+    .social-btn.twitter { background-color: #1da1f2; }
+    .social-btn.telegram { background-color: #0088cc; }
+    .social-btn.whatsapp { background-color: #25d366; }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      background-color: var();
+      padding: 24px 16px;
+      text-align: center;
+    }
+
+    .footer-logos {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      margin-bottom: 20px;
+    }
+
+    .footer-logos-box {
+      border: 2px solid #dfe3e800;
+      border-radius: 40px;
+      padding: 10px 24px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      background-color: rgba(255, 255, 255, 0);
+    }
+
+    .footer-logo-img {
+      max-width: 300px;
+      height: auto;
+    }
+
+    .footer-text {
+      font-size: 12px;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    /* ===== CHECKOUT MODAL ===== */
+    .checkout-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 2000;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .checkout-modal.active {
+      display: flex;
+    }
+
+    .checkout-content {
+      background-color: var(--modal-bg);
+      border-radius: 12px;
+      max-width: 500px;
+      width: 90%;
+      max-height: 90vh;
+      overflow-y: auto;
+      position: relative;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+      transition: background-color 0.3s;
+    }
+
+    .checkout-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px;
+      border-bottom: 1px solid var(--border-color);
+      background-color: var(--bg-section);
+      transition: background-color 0.3s;
+    }
+
+    .checkout-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .checkout-close {
+      background: none;
+      border: none;
+      font-size: 24px;
+      color: var(--text-secondary);
+      cursor: pointer;
+      padding: 0;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .checkout-close:hover {
+      color: var(--text-primary);
+    }
+
+    .checkout-body {
+      padding: 20px;
+    }
+
+    .checkout-step {
+      display: none;
+    }
+
+    .checkout-step.active {
+      display: block;
+    }
+
+    .checkout-info {
+      background-color: #e3f2fd;
+      border-left: 4px solid var(--border-color);
+      padding: 12px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      font-size: 13px;
+      color: #1565c0;
+    }
+
+    .checkout-form-group {
+      margin-bottom: 16px;
+    }
+
+    .checkout-label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 6px;
+    }
+
+    .checkout-input {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1.5px solid var(--border-color);
+      background-color: var(--input-bg);
+      color: var(--text-primary);
+      border-radius: 6px;
+      font-size: 14px;
+      font-family: 'Public Sans', sans-serif;
+      outline: none;
+      transition: border-color 0.2s, background-color 0.3s, color 0.3s;
+    }
+
+    .checkout-input:focus {
+      border-color: var(--text-primary);
+    }
+
+    .checkout-input.error {
+      border-color: #ff4842;
+    }
+
+    .error-text {
+      color: #ff4842;
+      font-size: 11px;
+      margin-top: 4px;
+      display: none;
+    }
+
+    .error-text.visible {
+      display: block;
+    }
+
+    .checkout-warning {
+      background-color: #fff3cd;
+      border-left: 4px solid #ffc107;
+      padding: 12px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      font-size: 13px;
+      color: #856404;
+    }
+
+    .checkout-footer {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .checkout-btn {
+      flex: 1;
+      padding: 12px 16px;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      font-family: 'Public Sans', sans-serif;
+    }
+
+    .checkout-btn-primary {
+      background-color: #198754;
+      color: white;
+    }
+
+    .checkout-btn-primary:hover {
+      background-color: #157347;
+    }
+
+    .checkout-btn-secondary {
+      background-color: var(--bg-section);
+      color: var(--text-secondary);
+      border: 1.5px solid var(--border-color);
+    }
+
+    .checkout-btn-secondary:hover {
+      background-color: #e9ecef;
+    }
+
+    .checkout-terms {
+      font-size: 11px;
+      color: var(--text-secondary);
+      margin-top: 12px;
+      line-height: 1.5;
+    }
+
+    .checkout-terms a {
+      color: #198754;
+      text-decoration: none;
+    }
+
+    .checkout-terms a:hover {
+      text-decoration: underline;
+    }
+
+    .pix-code-container {
+      background-color: var(--bg-section);
+      border: 2px dashed #198754;
+      border-radius: 8px;
+      padding: 16px;
+      text-align: center;
+      margin-bottom: 16px;
+    }
+
+    .pix-code-label {
+      font-size: 12px;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+    }
+
+    .pix-code {
+      background-color: var(--bg-section);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      padding: 12px;
+      font-size: 12px;
+      font-family: 'Courier New', monospace;
+      word-break: break-all;
+      margin-bottom: 8px;
+      color: var(--text-primary);
+    }
+
+    .pix-copy-btn {
+      background-color: #198754;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    .pix-copy-btn:hover {
+      background-color: #157347;
+    }
+
+    .numbers-container {
+      margin-top: 16px;
+      padding: 12px;
+      background-color: var(--bg-section);
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .numbers-label {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .numbers-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      justify-content: center;
+    }
+
+    .number-badge {
+      background-color: var(--text-primary);
+      color: white;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: 'Fira Code', monospace;
+    }
+
+    /* ===== STEP REVIEW (RESUMO DO PEDIDO) ===== */
+    .review-card {
+      background-color: var(--bg-section);
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 12px;
+      border: 1px solid var(--border-color);
+    }
+
+    .review-card-title {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 10px;
+    }
+
+    .review-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 6px 0;
+      border-bottom: 1px solid var(--border-color);
+      gap: 8px;
+    }
+
+    .review-row:last-child {
+      border-bottom: none;
+    }
+
+    .review-label {
+      font-size: 13px;
+      color: var(--text-secondary);
+      font-weight: 500;
+      flex-shrink: 0;
+    }
+
+    .review-value {
+      font-size: 13px;
+      color: var(--text-primary);
+      font-weight: 600;
+      text-align: right;
+      word-break: break-word;
+    }
+
+    .review-total-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 16px;
+      background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
+      border-radius: 10px;
+      margin-bottom: 12px;
+      border: 2px solid #a5d6a7;
+    }
+
+    .review-total-label {
+      font-size: 15px;
+      font-weight: 700;
+      color: #1b5e20;
+    }
+
+    .review-total-value {
+      font-size: 26px;
+      font-weight: 800;
+      color: #198754;
+    }
+
+    .pix-preparing-banner {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #e8f5e9 0%, #f0fff4 100%);
+      border: 1px solid #a5d6a7;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin-bottom: 14px;
+      font-size: 12px;
+      color: #1b5e20;
+      font-weight: 600;
+    }
+
+    .pix-preparing-spinner {
+      width: 16px;
+      height: 16px;
+      border: 2px solid #a5d6a7;
+      border-top-color: #198754;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      flex-shrink: 0;
+    }
+
+    .btn-finalizar {
+      width: 100%;
+      padding: 16px;
+      background: linear-gradient(135deg, #198754 0%, #157347 100%);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: all 0.2s;
+      box-shadow: 0 4px 14px rgba(25, 135, 84, 0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-family: 'Public Sans', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-top: 4px;
+    }
+
+    .btn-finalizar:hover {
+      background: linear-gradient(135deg, #157347 0%, #0f5132 100%);
+      box-shadow: 0 6px 20px rgba(25, 135, 84, 0.5);
+      transform: translateY(-1px);
+    }
+
+    .btn-finalizar:active {
+      transform: translateY(0);
+    }
+
+    .btn-finalizar:disabled {
+      background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
+      box-shadow: none;
+      cursor: not-allowed;
+      transform: none;
+      opacity: 0.8;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 768px) {
+      .carousel-slide img {
+        height: 240px;
+      }
+      .carousel-title {
+        font-size: 18px;
+      }
+      .package-qty {
+        font-size: 18px;
+      }
+      .checkout-content {
+        width: 95%;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .carousel-slide img {
+        height: 200px;
+      }
+      .carousel-title {
+        font-size: 16px;
+      }
+      .carousel-subtitle {
+        font-size: 11px;
+      }
+    }
+    
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-toolbar">
+      <div class="header-container">
+        <a href="/">
+          <picture>
+            <source srcset="images/logo.webp" type="image/webp">
+            <img class="header-logo" src="images/logo.webp" alt="logo" loading="eager" fetchpriority="high" width="400" height="173" />
+          </picture>
+        </a>
+        <div class="header-actions">
+          <button class="header-menu-btn" aria-label="Menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/>
+              <line x1="3" y1="12" x2="21" y2="12"/>
+              <line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="main-content">
+    <div class="page-wrapper">
+
+      <!-- CAROUSEL -->
+      <div class="carousel-container">
+        <div class="carousel-slides" id="carouselSlides">
+          <!-- Slide 1: eager + high priority -->
+          <div class="carousel-slide">
+            <picture>
+              <source media="(max-width: 768px)" srcset="images/car1.webp" type="image/webp">
+              <source media="(min-width: 769px)" srcset="images/car1.webp" type="image/webp">
+              <img src="images/car1.webp" alt="Veículo 1" loading="eager" fetchpriority="high" decoding="async" width="480" height="360" style="background: url('images/car1.webp') center/cover no-repeat;" />
+            </picture>
+          </div>
+          <!-- Slide 2: lazy -->
+          <div class="carousel-slide">
+            <picture>
+              <source media="(max-width: 768px)" srcset="images/car2.webp" type="image/webp">
+              <source media="(min-width: 769px)" srcset="images/car2.webp" type="image/webp">
+              <img src="images/car2.webp" alt="Veículo 2" loading="lazy" fetchpriority="low" decoding="async" width="480" height="360" style="background: url('images/car2.webp') center/cover no-repeat;" />
+            </picture>
+          </div>
+          <!-- Slide 3: lazy -->
+          <div class="carousel-slide">
+            <picture>
+              <source media="(max-width: 768px)" srcset="images/car3.webp" type="image/webp">
+              <source media="(min-width: 769px)" srcset="images/car3.webp" type="image/webp">
+              <img src="images/car3.webp" alt="Veículo 3" loading="lazy" fetchpriority="low" decoding="async" width="480" height="360" style="background: url('images/car3.webp') center/cover no-repeat;" />
+            </picture>
+          </div>
+          <!-- Slide 4: lazy -->
+          <div class="carousel-slide">
+            <picture>
+              <source media="(max-width: 768px)" srcset="images/car4.webp" type="image/webp">
+              <source media="(min-width: 769px)" srcset="images/car4.webp" type="image/webp">
+              <img src="images/car4.webp" alt="Veículo 4" loading="lazy" fetchpriority="low" decoding="async" width="480" height="360" style="background: url('images/car4.webp') center/cover no-repeat;" />
+            </picture>
+          </div>
+        </div>
+
+        <!-- Overlay com título -->
+        <div class="carousel-overlay">
+          <div class="carousel-badge-row">
+            <span class="badge-adquira">Adquira Já!</span>
+            <span class="badge-ltp">LTP-PRC-2026/01679</span>
+          </div>
+          <div class="carousel-title">RANGER RAPTOR COM QUASE R$100MIL EM ACESSÓRIOS</div>
+          <div class="carousel-subtitle">TOYOTA HILUX SRV - ANO 2026!</div>
+        </div>
+
+        <!-- Contador -->
+        <div class="carousel-counter" id="carouselCounter">1/4</div>
+
+        <!-- Botões de navegação -->
+        <button class="carousel-nav-btn carousel-nav-prev" onclick="changeSlide(-1)" aria-label="Ir para foto anterior">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+            <polyline points="15 18 9 12 15 6"/>
+          </svg>
+        </button>
+        <button class="carousel-nav-btn carousel-nav-next" onclick="changeSlide(1)" aria-label="Ir para próxima foto">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+            <polyline points="9 18 15 12 9 6"/>
+          </svg>
+        </button>
+
+        <!-- Dots -->
+        <div class="carousel-dots">
+          <button class="carousel-dot active" onclick="goToSlide(0)" id="dot0"></button>
+          <button class="carousel-dot" onclick="goToSlide(1)" id="dot1"></button>
+          <button class="carousel-dot" onclick="goToSlide(2)" id="dot2"></button>
+          <button class="carousel-dot" onclick="goToSlide(3)" id="dot3"></button>
+        </div>
+      </div>
+
+      <!-- PROGRESS SECTION -->
+      <div class="progress-section">
+        <div class="progress-header">
+          <button class="meus-titulos-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path d="M9 11l3 3L22 4"/>
+              <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+            </svg>
+            Meus títulos
+          </button>
+        </div>
+        <div class="progress-bar-container">
+          <div class="progress-bar-fill" id="progressBar"></div>
+          <span class="progress-bar-text" id="progressPercent">46.04%</span>
+        </div>
+      </div>
+
+      <!-- PRICE SECTION -->
+      <div class="price-section">
+        <div class="price-label">Por apenas</div>
+        <span class="price-value" id="pricePerUnit">R$ 0,12</span>
+      </div>
+
+      <!-- PROMOTION & TIMER SECTION -->
+      <div class="promo-container">
+        <div class="promo-header">
+          <h2>📣 Promoção</h2>
+          <span>Compre mais barato!</span>
+        </div>
+        <div class="promo-grid">
+          <div class="promo-item" onclick="addPackage(64, true)">
+            <span class="promo-item-text" id="promo64">64 por R$ 25,60</span>
+          </div>
+          <div class="promo-item" onclick="addPackage(257, true)">
+            <span class="promo-item-text" id="promo257">257 por R$ 102,80</span>
+          </div>
+          <div class="promo-item" onclick="addPackage(300, true)">
+            <span class="promo-item-text" id="promo300">300 por R$ 120,40</span>
+          </div>
+          <div class="promo-item" onclick="addPackage(600, true)">
+            <span class="promo-item-text" id="promo600">600 por R$ 190,00</span>
+          </div>
+        </div>
+
+        <div class="">
+          <div class="">
+             </div>
+          
+          <div class="">
+            
+            
+          </div>
+
+          
+          <div class="promo-dates" id="promoDates"></div>
+        </div>
+      </div>
+
+      <!-- PACKAGES SECTION -->
+      <div class="packages-section">
+        <div class="packages-hint">
+          Quanto mais títulos, mais chances de ganhar!
+        </div>
+        <div class="packages-grid">
+          <button class="package-btn" onclick="addPackage(10)">
+            <span class="package-qty">+10</span>
+            <span class="package-price" id="price10">R$ 4,90</span>
+            <span class="package-label">ADICIONAR</span>
+          </button>
+          <button class="package-btn" onclick="addPackage(50)">
+            <span class="package-qty">+50</span>
+            <span class="package-price" id="price50">R$ 24,50</span>
+            <span class="package-label">ADICIONAR</span>
+          </button>
+          <button class="package-btn" onclick="addPackage(100)">
+            <span class="package-qty">+100</span>
+            <span class="package-price" id="price100">R$ 49,00</span>
+            <span class="package-label">ADICIONAR</span>
+          </button>
+          <button class="package-btn" onclick="addPackage(250)">
+            <span class="package-qty">+250</span>
+            <span class="package-price" id="price250">R$ 122,50</span>
+            <span class="package-label">ADICIONAR</span>
+          </button>
+        </div>
+
+        <!-- Quantity Selector -->
+        <div class="qty-row">
+          <button class="qty-btn" onclick="changeQty(-1)" aria-label="Decrementar quantidade">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="8" y1="12" x2="16" y2="12"/>
+            </svg>
+          </button>
+          <div class="qty-input-wrapper">
+            <input class="qty-input" id="qtyInput" type="tel" value="30" />
+          </div>
+          <button class="qty-btn" onclick="changeQty(1)" aria-label="Incrementar quantidade">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="8" x2="12" y2="16"/>
+              <line x1="8" y1="12" x2="16" y2="12"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- CTA Button -->
+        <button class="cta-btn" id="ctaBtn" onclick="openCheckout()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/>
+            <polyline points="22 4 12 14.01 9 11.01"/>
+          </svg>
+          Quero participar
+          <span class="cta-btn-price" id="ctaPrice">R$ 8,82</span>
+        </button>
+
+        <!-- Description Button -->
+        <button class="desc-btn" onclick="toggleDesc()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="12" y1="8" x2="12" y2="12"/>
+            <line x1="12" y1="16" x2="12.01" y2="16"/>
+          </svg>
+          Descrição/Regulamento
+        </button>
+
+        <!-- Description Text -->
+        <div class="desc-text" id="descText">
+          <p>Este título de loteria está autorizado com base na Portaria/Termo de Autorização Nº 00946/2026 LTP-PRC-2026/01442, registrado pela empresa Razor Consultoria LTDA, CNPJ 57.610.480/0001-20.</p>
+          <br/>
+          <p><strong>Consulta ao Regulamento:</strong> Antes de contratar, é recomendado que o cliente consulte o regulamento completo do produto, disponível no site ou no local de venda.</p>
+          <br/>
+          <p><strong>Venda Proibida para Menores de 18 Anos:</strong> A comercialização é proibida para menores de 18 anos, conforme a legislação vigente.</p>
+          <br/>
+          <p><strong>Sorteios e Entrega dos Prêmios:</strong> Todos os sorteios e a entrega dos prêmios serão realizados conforme os critérios estabelecidos no regulamento disponível no site.</p>
+          <br/>
+          <p><strong>Participação em Múltiplos Sorteios:</strong> O adquirente do título digital participará de todos os sorteios previstos, mesmo que já tenha sido contemplado anteriormente.</p>
+          <br/>
+          <p><strong>Autorização de Uso de Imagem:</strong> Ao adquirir o título, o titular autoriza, sem custo adicional, o uso de seu nome, voz e imagem para a divulgação da campanha social associada à promoção.</p>
+        </div>
+      </div>
+
+      <!-- TÍTULOS PREMIADOS -->
+      <div class="section-header">
+        <div class="section-title">
+          🏆 Títulos Premiados
+        </div>
+        <span class="section-badge" id="titlesBadge">7 / 20</span>
+      </div>
+
+      <div class="titles-list" id="titlesList">
+        
+        <div class="title-row">
+          <span class="title-number">5092351</span>
+          <span class="title-prize">COROLLA HYBRID ♥️</span>
+          <span class="title-winner available">Disponível</span>
+        </div>
+        <div class="title-row">
+          <span class="title-number">5092327</span>
+          <span class="title-prize">🏍️MOTO BMW G310 🖤</span>
+          <span class="title-winner available">Disponível</span>
+        </div>
+        <div class="title-row">
+          <span class="title-number">5092387</span>
+          <span class="title-prize">RANGER 0KM 🤍</span>
+          <span class="title-winner available">Disponível</span>
+        </div>
+        <div class="title-row">
+          <span class="title-number">5092355</span>
+          <span class="title-prize">🏍️MOTO SAHARA 🩶</span>
+          <span class="title-winner available">Disponível</span>
+        </div>
+        <div class="title-row">
+          <span class="title-number">7092365</span>
+          <span class="title-prize">R$500,00💰</span>
+          <span class="title-winner available">Disponível</span>
+        </div>
+        
+        <div class="title-row">
+          <span class="title-number winner">4625819</span>
+          <span class="title-prize">R$ 1.000,00 💰</span>
+          <span class="title-winner">Daniel 🏆</span>
+        </div>
+        <!-- HIDDEN ROWS - MOSTRAR MAIS -->
+        <div class="title-row">
+          <span class="title-number winner">4625819</span>
+          <span class="title-prize">R$ 1.000,00 💰</span>
+          <span class="title-winner">Paulo 🏆</span>
+        </div>
+        <div class="title-row">
+          <span class="title-number winner">4625819</span>
+          <span class="title-prize">R$ 1.000,00 💰</span>
+          <span class="title-winner">Maria 🏆</span>
+        </div>
+        <div class="title-row hidden">
+          <span class="title-number winner">0963679</span>
+          <span class="title-prize">R$ 30.000,00 💰</span>
+          <span class="title-winner">Alex 🏆</span>
+        </div>
+        <div class="title-row hidden">
+          <span class="title-number">2182760</span>
+          <span class="title-prize">R$ 1.000,00 💰</span>
+          <span class="title-winner available">Disponível</span>
+        </div>
+        <div class="title-row hidden">
+          <span class="title-number winner">0596971</span>
+          <span class="title-prize">IPHONE 17 PRO MAX 📱</span>
+          <span class="title-winner">Helenna 🏆</span>
+        </div>
+        <div class="title-row hidden">
+          <span class="title-number">0624194</span>
+          <span class="title-prize">R$ 1.000,00 💰</span>
+          <span class="title-winner available">Disponível</span>
+        </div>
+        <div class="title-row hidden">
+          <span class="title-number">5016884</span>
+          <span class="title-prize">R$ 1.000,00 💰</span>
+          <span class="title-winner available">Disponível</span>
+        </div>
+        <div class="title-row hidden">
+          <span class="title-number">7569530</span>
+          <span class="title-prize">R$ 1.000,00 💰</span>
+          <span class="title-winner available">Disponível</span>
+        </div>
+        <div class="title-row hidden">
+          <span class="title-number">6661937</span>
+          <span class="title-prize">R$ 1.000,00 💰</span>
+          <span class="title-winner available">Disponível</span>
+        </div>
+        <div class="title-row hidden">
+          <span class="title-number">8283651</span>
+          <span class="title-prize">R$ 1.000,00 💰</span>
+          <span class="title-winner available">Disponível</span>
+        </div>
+        <div class="title-row hidden">
+          <span class="title-number">6922298</span>
+          <span class="title-prize">R$ 1.000,00 💰</span>
+          <span class="title-winner available">Disponível</span>
+        </div>
+        <div class="title-row hidden">
+          <span class="title-number winner">4379132</span>
+          <span class="title-prize">MT 09 🏍️</span>
+          <span class="title-winner">Julio 🏆</span>
+        </div>
+        <div class="title-row hidden">
+          <span class="title-number">8069302</span>
+          <span class="title-prize">R$ 1.000,00 💰</span>
+          <span class="title-winner available">Disponível</span>
+        </div>
+        <div class="title-row hidden">
+          <span class="title-number">4172331</span>
+          <span class="title-prize">R$ 1.000,00 💰</span>
+          <span class="title-winner available">Disponível</span>
+        </div>
+        <div class="title-row hidden">
+          <span class="title-number">5532206</span>
+          <span class="title-prize">R$ 1.000,00 💰</span>
+          <span class="title-winner available">Disponível</span>
+        </div>
+      </div>
+
+      <button class="show-more-btn" id="showMoreTitles" onclick="toggleShowMore('titles')">∨ Mostrar Mais</button>
+
+      <!-- ROLETAS INSTANTÂNEAS - COMBOS -->
+      <div class="section-header">
+        <div class="section-title">
+          🎯 Roletas Instantâneas
+        </div>
+        <span class="section-badge" style="background-color: #e8f5e9; color: #198754;">combos</span>
+      </div>
+
+      <div class="roletas-combos">
+        <div class="roleta-combo-card" onclick="selectCombo(167, 5)">
+          <div class="roleta-combo-left">
+            <span class="roleta-combo-label">A cada</span>
+            <span class="roleta-combo-qty">50 Títulos</span>
+            <span class="roleta-combo-price">por R$ 24,50</span>
+          </div>
+          <div class="roleta-combo-right">
+            <div class="roleta-combo-receive">Recebe <strong>5</strong></div>
+            <div class="roleta-combo-count">Roletas 🎯</div>
+            <div class="roleta-combo-desc"> chance(s) de contemplação nas Roletas Instantâneas</div>
+          </div>
+        </div>
+
+        <div class="roleta-combo-card" onclick="selectCombo(417, 15)">
+          <div class="roleta-combo-left">
+            <span class="roleta-combo-label">A cada</span>
+            <span class="roleta-combo-qty">100 Títulos</span>
+            <span class="roleta-combo-price">por R$ 49,00</span>
+          </div>
+          <div class="roleta-combo-right">
+            <div class="roleta-combo-receive">Recebe <strong>10</strong></div>
+            <div class="roleta-combo-count">Roletas 🎯</div>
+            <div class="roleta-combo-desc">12 chance(s) de contemplação nas Roletas Instantâneas</div>
+          </div>
+        </div>
+
+        <div class="roleta-combo-card" onclick="selectCombo(1000, 50)">
+          <div class="roleta-combo-left">
+            <span class="roleta-combo-label">A cada</span>
+            <span class="roleta-combo-qty">150 Títulos</span>
+            <span class="roleta-combo-price">por R$ 73,50</span>
+          </div>
+          <div class="roleta-combo-right">
+            <div class="roleta-combo-receive">Recebe <strong>15</strong></div>
+            <div class="roleta-combo-count">Roletas 🎯</div>
+            <div class="roleta-combo-desc">50 chance(s) de contemplação nas Roletas Instantâneas</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ROLETAS INSTANTÂNEAS - GANHADORES -->
+      <div class="section-header">
+        <div class="section-title">
+          🎯 Roletas Instantâneas
+        </div>
+        <span class="section-badge" id="rolatasBadge">0 / 10</span>
+      </div>
+
+      <div class="roletas-winners" id="roletasWinners">
+        <div class="roleta-winner-row">
+          <span class="roleta-prize-badge">💰 1.000,00</span>
+          <span class="roleta-winner-name">Disponível</span>
+        </div>
+        <div class="roleta-winner-row">
+          <span class="roleta-prize-badge">💰 1.000,00</span>
+          <span class="roleta-winner-name">Disponível</span>
+        </div>
+        <div class="roleta-winner-row">
+          <span class="roleta-prize-badge">💰 1.000,00</span>
+          <span class="roleta-winner-name">Disponível</span>
+        </div>
+        <div class="roleta-winner-row">
+          <span class="roleta-prize-badge">💰 1.000,00</span>
+          <span class="roleta-winner-name">Disponível</span>
+        </div>
+        <div class="roleta-winner-row">
+          <span class="roleta-prize-badge">💰 1.000,00</span>
+          <span class="roleta-winner-name">Disponível</span>
+        </div>
+      </div>
+
+      <button class="show-more-btn" id="showMoreRoletas" onclick="toggleShowMore('roletas')">∨ Mostrar Mais</button>
+
+      <!-- SOCIAL SHARE -->
+      <div class="social-section">
+        <button class="social-btn facebook" aria-label="Compartilhar no Facebook">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg>
+        </button>
+        <button class="social-btn twitter" aria-label="Compartilhar no Twitter">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg>
+        </button>
+        <button class="social-btn telegram" aria-label="Compartilhar no Telegram">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 16 16">
+            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+          </svg>
+        </button>
+        <button class="social-btn whatsapp" aria-label="Compartilhar no WhatsApp">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+  <div class="footer-logos">
+    <div class="footer-logos-box">
+      <div style="width: 100%; text-align: center; padding: 15px 0;">
+   <picture>
+     <source srcset="images/footer_logos.webp" type="image/webp">
+     <img src="images/footer_logos.webp" alt="Logos dos parceiros" loading="lazy" decoding="async" width="1200" height="192" style="display: inline-block; max-width: 70%; height: auto;">
+   </picture>
+ </div>
+    </div>
+  </div>
+</footer>
+
+        <p class="footer-text" style="text-align: center; padding: 0 20px; max-width: 800px; margin: 0 auto; line-height: 1.6; font-size: 14px;">
+    Este título de loteria está autorizado com base na Portaria/Termo de Autorização Nº 01187/2026 LTP-PRC-2026/01679, registrado pela empresa Razor Consultoria LTDA, CNPJ 57.610.480/0001-20. 
+
+Consulta ao Regulamento: Antes de contratar, é recomendado que o cliente consulte o regulamento completo do produto, disponível no site ou no local de venda. 
+
+Venda Proibida para Menores de 18 Anos: A comercialização é proibida para menores de 18 anos, conforme a legislação vigente. 
+
+Sorteios e Entrega dos Prêmios: Todos os sorteios e a entrega dos prêmios serão realizados conforme os critérios estabelecidos no regulamento disponível no site. 
+
+Participação em Múltiplos Sorteios: O adquirente do título digital participará de todos os sorteios previstos, mesmo que já tenha sido contemplado anteriormente. 
+
+Autorização de Uso de Imagem: Ao adquirir o título, o titular autoriza, sem custo adicional, o uso de seu nome, voz e imagem para a divulgação da campanha social associada à promoção.</p>
+      </footer>
+
+    </div>
+  </main>
+
+  <!-- CHECKOUT MODAL -->
+  <div class="checkout-modal" id="checkoutModal">
+    <div class="checkout-content">
+      <div class="checkout-header">
+        <span class="checkout-title" id="checkoutTitle">Checkout</span>
+        <button class="checkout-close" onclick="closeCheckout()">✕</button>
+      </div>
+      <div class="checkout-body">
+
+        <!-- STEP 1: TELEFONE -->
+        <div class="checkout-step active" id="step1">
+          <div class="checkout-info">
+            ℹ️ Você está adquirindo <strong id="step1Qty">18</strong> unidade(s) do produto <strong>RANGER RAPTOR</strong>
+          </div>
+
+          <div class="checkout-form-group">
+            <label class="checkout-label">Informe seu telefone *</label>
+            <input class="checkout-input" id="phone1" type="tel" placeholder="(11) 99999-9999" maxlength="15" />
+            <span class="error-text" id="errorPhone1">Telefone inválido</span>
+          </div>
+
+          <div class="checkout-warning">
+            ⚠️ Informe seus dados para continuar
+          </div>
+
+          <div class="checkout-footer">
+            <button class="checkout-btn checkout-btn-secondary" onclick="closeCheckout()">Cancelar</button>
+            <button class="checkout-btn checkout-btn-primary" onclick="nextStep(1)">Continuar</button>
+          </div>
+
+          <div class="checkout-terms">
+            Ao continuar, você concorda com nossos <a href="#">termos de uso</a>
+          </div>
+        </div>
+
+        <!-- STEP 2: DADOS PESSOAIS -->
+        <div class="checkout-step" id="step2">
+          <div class="checkout-info">
+            ℹ️ Você está adquirindo <strong id="step2Qty">18</strong> unidade(s) do produto <strong>RANGER RAPTOR</strong>
+          </div>
+
+          <div class="checkout-form-group">
+            <label class="checkout-label">Confirme o Telefone *</label>
+            <input class="checkout-input" id="phone2" type="tel" placeholder="(11) 99999-9999" maxlength="15" />
+            <span class="error-text" id="errorPhone2">Telefone não confere</span>
+          </div>
+
+          <div class="checkout-form-group">
+            <label class="checkout-label">Nome Completo *</label>
+            <input class="checkout-input" id="fullName" type="text" placeholder="João Silva" />
+            <span class="error-text" id="errorName">Nome muito curto</span>
+          </div>
+
+          <div class="checkout-form-group">
+            <label class="checkout-label">E-mail *</label>
+            <input class="checkout-input" id="email" type="email" placeholder="joao@exemplo.com" />
+            <span class="error-text" id="errorEmail">E-mail inválido</span>
+          </div>
+
+          <div class="checkout-form-group">
+            <label class="checkout-label">CPF *</label>
+            <input class="checkout-input" id="cpf" type="tel" placeholder="123.456.789-01" maxlength="14" />
+            <span class="error-text" id="errorCpf">CPF inválido</span>
+          </div>
+
+          <div class="checkout-warning">
+            ⚠️ Informe seus dados para continuar
+          </div>
+
+          <div class="checkout-footer">
+            <button class="checkout-btn checkout-btn-secondary" onclick="prevStep(2)">Voltar</button>
+            <button class="checkout-btn checkout-btn-primary" onclick="nextStep(2)">Continuar</button>
+          </div>
+
+          <div class="checkout-terms">
+            Ao continuar, você concorda com nossos <a href="#">termos de uso</a>
+          </div>
+        </div>
+
+        <!-- STEP 3: RESUMO DO PEDIDO -->
+        <div class="checkout-step" id="step3">
+
+          <!-- Banner: PIX sendo preparado em background -->
+          <div class="pix-preparing-banner" id="pixPreparingBanner">
+            <div class="pix-preparing-spinner"></div>
+            <span>Preparando seu PIX... será instantâneo ao finalizar!</span>
+          </div>
+
+          <!-- Card: Dados do pedido -->
+          <div class="review-card">
+            <div class="review-card-title">📦 Resumo do Pedido</div>
+            <div class="review-row">
+              <span class="review-label">Produto</span>
+              <span class="review-value">RANGER RAPTOR</span>
+            </div>
+            <div class="review-row">
+              <span class="review-label">Quantidade</span>
+              <span class="review-value" id="reviewQty">—</span>
+            </div>
+            <div class="review-row">
+              <span class="review-label">Valor unitário</span>
+              <span class="review-value" id="reviewUnitPrice">—</span>
+            </div>
+          </div>
+
+          <!-- Card: Dados pessoais -->
+          <div class="review-card">
+            <div class="review-card-title">👤 Seus Dados</div>
+            <div class="review-row">
+              <span class="review-label">Nome</span>
+              <span class="review-value" id="reviewName">—</span>
+            </div>
+            <div class="review-row">
+              <span class="review-label">E-mail</span>
+              <span class="review-value" id="reviewEmail">—</span>
+            </div>
+            <div class="review-row">
+              <span class="review-label">Telefone</span>
+              <span class="review-value" id="reviewPhone">—</span>
+            </div>
+            <div class="review-row">
+              <span class="review-label">CPF</span>
+              <span class="review-value" id="reviewCpf">—</span>
+            </div>
+          </div>
+
+          <!-- Total destacado -->
+          <div class="review-total-row">
+            <span class="review-total-label">💰 Total a pagar</span>
+            <span class="review-total-value" id="reviewTotal">—</span>
+          </div>
+
+          <!-- Botão Finalizar Compra -->
+          <button class="btn-finalizar" id="btnFinalizar" onclick="finalizarCompra()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+            Finalizar Compra
+          </button>
+
+          <div style="margin-top: 10px;">
+            <button class="checkout-btn checkout-btn-secondary" style="width:100%;" onclick="prevStep(3)">← Corrigir dados</button>
+          </div>
+
+          <div class="checkout-terms" style="margin-top: 12px;">
+            Ao finalizar, você concorda com nossos <a href="#">termos de uso</a>
+          </div>
+        </div>
+
+        <!-- STEP 4: PAGAMENTO PIX -->
+        <div class="checkout-step" id="step4">
+          <div class="checkout-info">
+            ✅ Pedido confirmado! Realize o pagamento via PIX abaixo
+          </div>
+
+          <div class="pix-code-container">
+            <div class="pix-code-label">Escaneie o QR Code:</div>
+            <div id="pixQrCode" style="background: white; padding: 10px; border-radius: 8px; margin: 0 auto 15px; width: 200px; height: 200px; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-color);">
+              <span style="color: var(--text-secondary); font-size: 12px;">Aguardando código...</span>
+            </div>
+            <div class="pix-code-label">Ou copie o código PIX:</div>
+            <div class="pix-code" id="pixCode">Gerando código...</div>
+            <button class="pix-copy-btn" onclick="copyPixCode()">Copiar Código PIX</button>
+          </div>
+
+          <div class="numbers-container">
+            <span class="numbers-label">Seus números da sorte:</span>
+            <div class="numbers-grid" id="luckyNumbers">
+              <!-- Números gerados aqui -->
+            </div>
+          </div>
+
+          <div class="checkout-warning">
+            ⚠️ Após realizar o pagamento, sua reserva será confirmada automaticamente
+          </div>
+
+          <div class="checkout-footer">
+            <button class="checkout-btn checkout-btn-primary" onclick="confirmPayment()" style="flex:1;">Pagamento Realizado ✓</button>
+          </div>
+
+          <div class="checkout-terms">
+            Ao confirmar, você concorda com nossos <a href="#">termos de uso</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Biblioteca QR Code Local para garantir carregamento -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script>
+    // ===== CONSTANTS & DYNAMIC PRICING =====
+    // VALOR DA COTA PADRÃO (Altere aqui para atualizar o site todo)
+    const PRICE_PER_TITLE = 0.49; 
+    
+    // CONFIGURAÇÃO DAS 4 PROMOÇÕES (Edite aqui quantidades e valores totais)
+    const PROMO_1 = { qty: 64, price: 25.00 };
+    const PROMO_2 = { qty: 257, price: 100.03 };
+    const PROMO_3 = { qty: 400, price: 196.00 };
+    const PROMO_4 = { qty: 600, price: 294.00 };
+
+    const TOTAL_TITLES = 1000000; // 1 milhão de números
+    const CURRENT_TITLES = 460400; // Títulos já vendidos (46.04%)
+    const MIN_QTY = 30; // Quantidade mínima de compra
+
+    // Função para formatar preço para Real
+    function formatBRL(val) {
+      return val.toFixed(2).replace('.', ',');
+    }
+
+    // Função para atualizar todos os textos de preço estáticos no site
+    function updateAllStaticPrices() {
+      // Preço unitário principal
+      document.getElementById('pricePerUnit').textContent = `R$ ${formatBRL(PRICE_PER_TITLE)}`;
+      
+      // Pacotes rápidos (+50, +100, etc)
+      document.getElementById('price50').textContent = `R$ ${formatBRL(50 * PRICE_PER_TITLE)}`;
+      document.getElementById('price100').textContent = `R$ ${formatBRL(100 * PRICE_PER_TITLE)}`;
+      document.getElementById('price500').textContent = `R$ ${formatBRL(500 * PRICE_PER_TITLE)}`;
+      document.getElementById('price1000').textContent = `R$ ${formatBRL(1000 * PRICE_PER_TITLE)}`;
+
+      // Atualizar Textos das Promoções Manuais
+      document.getElementById('promo800').textContent = `${PROMO_1.qty} por R$ ${formatBRL(PROMO_1.price)}`;
+      document.getElementById('promo1300').textContent = `${PROMO_2.qty} por R$ ${formatBRL(PROMO_2.price)}`;
+      document.getElementById('promo2200').textContent = `${PROMO_3.qty} por R$ ${formatBRL(PROMO_3.price)}`;
+      document.getElementById('promo3000').textContent = `${PROMO_4.qty} por R$ ${formatBRL(PROMO_4.price)}`;
+
+      // Atualizar os atributos onclick para usar as novas quantidades
+      const promoItems = document.querySelectorAll('.promo-item');
+      promoItems[0].setAttribute('onclick', `addPackage(${PROMO_1.qty}, true)`);
+      promoItems[1].setAttribute('onclick', `addPackage(${PROMO_2.qty}, true)`);
+      promoItems[2].setAttribute('onclick', `addPackage(${PROMO_3.qty}, true)`);
+      promoItems[3].setAttribute('onclick', `addPackage(${PROMO_4.qty}, true)`);
+    }
+
+    // ===== CAROUSEL =====
+    let currentSlide = 0;
+    const totalSlides = 4;
+
+    function updateCarousel() {
+      const slides = document.getElementById('carouselSlides');
+      slides.style.transform = `translateX(-${currentSlide * 100}%)`;
+      document.getElementById('carouselCounter').textContent = `${currentSlide + 1}/${totalSlides}`;
+      document.querySelectorAll('.carousel-dot').forEach((dot, i) => {
+        dot.classList.toggle('active', i === currentSlide);
+      });
+    }
+
+    function changeSlide(direction) {
+      currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+      updateCarousel();
+    }
+
+    function goToSlide(index) {
+      currentSlide = index;
+      updateCarousel();
+    }
+
+    // Auto-play carousel
+    setInterval(() => changeSlide(1), 4000);
+
+    // Variável global para armazenar o preço total atual (considerando promoções)
+    let CURRENT_TOTAL_PRICE = 0;
+
+    // ===== QUANTITY & PRICING =====
+    function updatePrice() {
+      const qty = parseInt(document.getElementById('qtyInput').value) || 1;
+      
+      // Verificar se a quantidade corresponde a uma das promoções manuais
+      if (qty === PROMO_1.qty) CURRENT_TOTAL_PRICE = PROMO_1.price;
+      else if (qty === PROMO_2.qty) CURRENT_TOTAL_PRICE = PROMO_2.price;
+      else if (qty === PROMO_3.qty) CURRENT_TOTAL_PRICE = PROMO_3.price;
+      else if (qty === PROMO_4.qty) CURRENT_TOTAL_PRICE = PROMO_4.price;
+      else CURRENT_TOTAL_PRICE = qty * PRICE_PER_TITLE;
+
+      const total = formatBRL(CURRENT_TOTAL_PRICE);
+      document.getElementById('ctaPrice').textContent = `R$ ${total}`;
+
+      // Atualizar progresso: baseado no total de 1 milhão
+      const totalSold = CURRENT_TITLES + qty; // Títulos já vendidos + nova compra
+      const rawPercent = (totalSold / TOTAL_TITLES) * 100;
+      // Limitar entre 0% e 100%
+      const clampedPercent = Math.min(100, Math.max(0, rawPercent));
+      const displayPercent = clampedPercent.toFixed(2);
+
+      // Atualizar largura da barra (preenchimento visual)
+      document.getElementById('progressBar').style.width = `${clampedPercent}%`;
+      // Atualizar texto da porcentagem (sempre visível no centro)
+      document.getElementById('progressPercent').textContent = `${displayPercent}%`;
+    }
+
+    function changeQty(delta) {
+      const input = document.getElementById('qtyInput');
+      let val = parseInt(input.value) || MIN_QTY;
+      val = Math.max(MIN_QTY, val + delta);
+      input.value = val;
+      updatePrice();
+    }
+
+    function addPackage(qty, promoPrice) {
+      const input = document.getElementById('qtyInput');
+      if (promoPrice) {
+        // Se for uma promoção direta, define o valor exato e ABRE O CHECKOUT
+        input.value = qty;
+        updatePrice();
+        openCheckout();
+      } else {
+        // Se for os pacotes normais, soma à quantidade atual
+        let currentVal = parseInt(input.value) || 0;
+        input.value = currentVal + qty;
+        updatePrice();
+      }
+    }
+
+    // ===== AUTOMATIC COUNTDOWN TIMER =====
+    function startCountdown() {
+      const promoDatesElement = document.getElementById('promoDates');
+      const dateText = promoDatesElement.textContent; // Ex: "Válido de 19/04/2026 09:00 a 02/05/2026 21:30"
+      
+      // Extrair datas usando Regex
+      const datePattern = /(\d{2})\/(\d{2})\/(\d{4})\s+(\d{2}):(\d{2})/g;
+      const matches = [...dateText.matchAll(datePattern)];
+      
+      if (matches.length < 2) return;
+
+      function parseMatch(m) {
+        return new Date(`${m[3]}-${m[2]}-${m[1]}T${m[4]}:${m[5]}:00`).getTime();
+      }
+
+      const startDate = parseMatch(matches[0]);
+      const targetDate = parseMatch(matches[1]);
+      const totalDuration = targetDate - startDate;
+
+      const timerInterval = setInterval(function() {
+        const now = new Date().getTime();
+        const distance = targetDate - now;
+
+        if (distance < 0) {
+          clearInterval(timerInterval);
+          document.getElementById("countdown").textContent = "ENCERRADO";
+          document.getElementById("timerProgress").style.width = "100%";
+          return;
+        }
+
+        // Lógica: Mostrar dias se faltar mais de 24h, senão mostrar HH:MM:SS
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        if (days > 0) {
+          // Mostrar formato de Dias
+          const dText = days === 1 ? 'Dia' : 'Dias';
+          const hText = hours === 1 ? 'Hora' : 'Horas';
+          document.getElementById("countdown").textContent = `${days} ${dText} e ${hours} ${hText}`;
+        } else {
+          // Mostrar formato HH:MM:SS no último dia
+          const hDisplay = hours.toString().padStart(2, '0');
+          const mDisplay = minutes.toString().padStart(2, '0');
+          const sDisplay = seconds.toString().padStart(2, '0');
+          document.getElementById("countdown").textContent = `${hDisplay}:${mDisplay}:${sDisplay}`;
+        }
+
+        // Atualizar barra de progresso
+        const elapsed = now - startDate;
+        const progressPercent = Math.min(100, Math.max(0, (elapsed / totalDuration) * 100));
+        document.getElementById("timerProgress").style.width = `${progressPercent}%`;
+
+      }, 1000);
+    }
+
+    // Inicializar contador
+    startCountdown();
+
+    function selectCombo(titleQty, roletaQty) {
+      document.getElementById('qtyInput').value = titleQty;
+      updatePrice();
+      openCheckout();
+    }
+
+    document.getElementById('qtyInput').addEventListener('input', function() {
+      updatePrice();
+    });
+    document.getElementById('qtyInput').addEventListener('blur', function() {
+      let val = parseInt(this.value) || MIN_QTY;
+      if (val < MIN_QTY) {
+        this.value = MIN_QTY;
+        updatePrice();
+      }
+    });
+
+    // ===== DESCRIPTION TOGGLE =====
+    function toggleDesc() {
+      const desc = document.getElementById('descText');
+      desc.classList.toggle('visible');
+    }
+
+    // ===== SHOW MORE / SHOW LESS =====
+    function toggleShowMore(section) {
+      const btn = document.getElementById(`showMore${section === 'titles' ? 'Titles' : 'Roletas'}`);
+      const rows = document.querySelectorAll(`${section === 'titles' ? '.titles-list' : '.roletas-winners'} .title-row.hidden`);
+      
+      const isHidden = rows[0]?.classList.contains('hidden');
+      rows.forEach(row => {
+        if (isHidden) {
+          row.classList.remove('hidden');
+        } else {
+          row.classList.add('hidden');
+        }
+      });
+      
+      btn.textContent = isHidden ? '∧ Mostrar Menos' : '∨ Mostrar Mais';
+    }
+
+    // ===== VALIDATIONS =====
+    function validatePhone(phone) {
+      const clean = phone.replace(/\D/g, '');
+      return clean.length >= 10 && clean.length <= 11;
+    }
+
+    function validateEmail(email) {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+
+    function validateCPF(cpf) {
+      const clean = cpf.replace(/\D/g, '');
+      if (clean.length !== 11) return false;
+      if (/^(\d)\1+$/.test(clean)) return false;
+      
+      let sum = 0;
+      let rest;
+      for (let i = 1; i <= 9; i++) sum = sum + parseInt(clean.substring(i-1, i)) * (11 - i);
+      rest = (sum * 10) % 11;
+      if ((rest == 10) || (rest == 11)) rest = 0;
+      if (rest != parseInt(clean.substring(9, 10))) return false;
+      
+      sum = 0;
+      for (let i = 1; i <= 10; i++) sum = sum + parseInt(clean.substring(i-1, i)) * (12 - i);
+      rest = (sum * 10) % 11;
+      if ((rest == 10) || (rest == 11)) rest = 0;
+      if (rest != parseInt(clean.substring(10, 11))) return false;
+      
+      return true;
+    }
+
+    // Masking
+    function maskPhone(v) {
+      v = v.replace(/\D/g, "");
+      v = v.replace(/^(\d{2})(\d)/g, "($1) $2");
+      v = v.replace(/(\d)(\d{4})$/, "$1-$2");
+      return v;
+    }
+
+    function maskCPF(v) {
+      v = v.replace(/\D/g, "");
+      v = v.replace(/(\d{3})(\d)/, "$1.$2");
+      v = v.replace(/(\d{3})(\d)/, "$1.$2");
+      v = v.replace(/(\d{3})(\d{1,2})$/, "$1-$2");
+      return v;
+    }
+
+    document.getElementById('phone1').addEventListener('input', e => e.target.value = maskPhone(e.target.value));
+    document.getElementById('phone2').addEventListener('input', e => e.target.value = maskPhone(e.target.value));
+    document.getElementById('cpf').addEventListener('input', e => e.target.value = maskCPF(e.target.value));
+
+    // ===== CHECKOUT MODAL =====
+    let currentCheckoutStep = 1;
+
+    // Variável global para armazenar a Promise do PIX em andamento
+    let PIX_PROMISE = null;
+    // Resultado já resolvido do PIX (para acesso instantâneo no step 4)
+    let PIX_RESULT = null;
+
+    function openCheckout() {
+      const qty = document.getElementById('qtyInput').value;
+      document.getElementById('step1Qty').textContent = qty;
+      document.getElementById('step2Qty').textContent = qty;
+      document.getElementById('checkoutModal').classList.add('active');
+      currentCheckoutStep = 1;
+      PIX_PROMISE = null;
+      PIX_RESULT = null;
+      showStep(1);
+    }
+
+    function closeCheckout() {
+      document.getElementById('checkoutModal').classList.remove('active');
+      resetCheckoutForm();
+      PIX_PROMISE = null;
+      PIX_RESULT = null;
+    }
+
+    function showStep(step) {
+      document.querySelectorAll('.checkout-step').forEach(s => s.classList.remove('active'));
+      document.getElementById(`step${step}`).classList.add('active');
+      // Atualizar título do header
+      const titles = {
+        1: 'Checkout • Etapa 1/3',
+        2: 'Checkout • Etapa 2/3',
+        3: 'Resumo do Pedido',
+        4: 'Pagamento PIX'
+      };
+      const titleEl = document.getElementById('checkoutTitle');
+      if (titleEl) titleEl.textContent = titles[step] || 'Checkout';
+    }
+
+    function nextStep(currentStep) {
+      // Reset errors
+      document.querySelectorAll('.error-text').forEach(e => e.classList.remove('visible'));
+      document.querySelectorAll('.checkout-input').forEach(i => i.classList.remove('error'));
+
+      if (currentStep === 1) {
+        const phone = document.getElementById('phone1').value;
+        if (!validatePhone(phone)) {
+          document.getElementById('phone1').classList.add('error');
+          document.getElementById('errorPhone1').classList.add('visible');
+          return;
+        }
+        document.getElementById('phone2').value = phone;
+        currentCheckoutStep = 2;
+        showStep(2);
+
+      } else if (currentStep === 2) {
+        const phone1 = document.getElementById('phone1').value;
+        const phone2 = document.getElementById('phone2').value;
+        const name = document.getElementById('fullName').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const cpf = document.getElementById('cpf').value;
+
+        let hasError = false;
+        const phone1Digits = phone1.replace(/\D/g, '');
+        const phone2Digits = phone2.replace(/\D/g, '');
+
+        if (phone1Digits !== phone2Digits) {
+          document.getElementById('phone2').classList.add('error');
+          document.getElementById('errorPhone2').classList.add('visible');
+          hasError = true;
+        }
+        if (name.length < 3) {
+          document.getElementById('fullName').classList.add('error');
+          document.getElementById('errorName').classList.add('visible');
+          hasError = true;
+        }
+        if (!validateEmail(email)) {
+          document.getElementById('email').classList.add('error');
+          document.getElementById('errorEmail').classList.add('visible');
+          hasError = true;
+        }
+        if (!validateCPF(cpf)) {
+          document.getElementById('cpf').classList.add('error');
+          document.getElementById('errorCpf').classList.add('visible');
+          hasError = true;
+        }
+        if (hasError) return;
+
+        // ===== NOVO FLUXO: IR PARA STEP 3 (RESUMO) =====
+        currentCheckoutStep = 3;
+        showStep(3);
+
+        // Preencher dados do resumo
+        const qty = parseInt(document.getElementById('qtyInput').value);
+        document.getElementById('reviewQty').textContent = qty + ' títulos';
+        document.getElementById('reviewUnitPrice').textContent = 'R$ ' + formatBRL(PRICE_PER_TITLE) + ' cada';
+        document.getElementById('reviewName').textContent = name;
+        document.getElementById('reviewEmail').textContent = email;
+        document.getElementById('reviewPhone').textContent = phone1;
+        document.getElementById('reviewCpf').textContent = cpf;
+        document.getElementById('reviewTotal').textContent = 'R$ ' + formatBRL(CURRENT_TOTAL_PRICE);
+
+        // Gerar números da sorte já
+        generateLuckyNumbers();
+
+        // ⚡ DISPARO ANTECIPADO DO PIX: começa a gerar enquanto usuário lê o resumo
+        PIX_RESULT = null;
+        const banner = document.getElementById('pixPreparingBanner');
+        if (banner) banner.style.display = 'flex';
+        const btnFinalizar = document.getElementById('btnFinalizar');
+        if (btnFinalizar) {
+          btnFinalizar.disabled = false; // Permite clicar mesmo antes de terminar
+        }
+
+        PIX_PROMISE = generatePixCodeBackground().then(result => {
+          PIX_RESULT = result;
+          // Atualizar banner para "pronto"
+          if (banner) {
+            banner.innerHTML = `
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="#198754" stroke-width="2.5" style="flex-shrink:0">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+              </svg>
+              <span>PIX pronto! Clique em Finalizar Compra para ver o código.</span>
+            `;
+          }
+        }).catch(() => {
+          // Mesmo com erro, deixa o usuário prosseguir (será retentado no step 4)
+          if (banner) {
+            banner.innerHTML = `<span style="color:#856404">⚠️ PIX será gerado ao finalizar.</span>`;
+          }
+        });
+      }
+    }
+
+    function prevStep(currentStep) {
+      currentCheckoutStep = currentStep - 1;
+      showStep(currentCheckoutStep);
+    }
+
+    // Chamada ao clicar em "Finalizar Compra" no step 3
+    async function finalizarCompra() {
+      currentCheckoutStep = 4;
+      showStep(4);
+
+      // Renderizar QR code e código PIX
+      if (PIX_RESULT) {
+        // PIX já está pronto — exibir instantaneamente
+        renderPixResult(PIX_RESULT);
+      } else {
+        // PIX ainda não chegou — aguardar a promise (já em andamento)
+        showPixLoading();
+        try {
+          const result = await PIX_PROMISE;
+          PIX_RESULT = result;
+          renderPixResult(result);
+        } catch(e) {
+          // Tentar novamente se falhou
+          try {
+            const result = await generatePixCodeBackground();
+            PIX_RESULT = result;
+            renderPixResult(result);
+          } catch(e2) {
+            renderPixError('Erro de conexão. Verifique sua internet e tente novamente.');
+          }
+        }
+      }
+    }
+
+    function generateLuckyNumbers() {
+      const qty = parseInt(document.getElementById('qtyInput').value);
+      const container = document.getElementById('luckyNumbers');
+      
+      // OTIMIZAÇÃO EXTREMA: Gerar string HTML de uma vez é mais rápido que criar centenas de nós
+      const displayLimit = Math.min(qty, 200); 
+      let html = '';
+      
+      for (let i = 0; i < displayLimit; i++) {
+        const num = Math.floor(Math.random() * 9999999).toString().padStart(7, '0');
+        html += `<span class="number-badge">${num}</span>`;
+      }
+
+      if (qty > displayLimit) {
+        html += `<div style="grid-column: 1/-1; font-size: 12px; color: var(--text-secondary); text-align: center; margin-top: 8px;">+ ${qty - displayLimit} números gerados e vinculados ao seu CPF</div>`;
+      }
+      
+      container.innerHTML = html;
+    }
+
+    // =========================================================================
+    // NOVO SISTEMA DE PIX ANTECIPADO
+    // generatePixCodeBackground() — faz a chamada à API e retorna o resultado
+    // renderPixResult()           — exibe o QR code e código PIX na tela
+    // showPixLoading()            — mostra skeleton enquanto aguarda
+    // renderPixError()            — exibe mensagem de erro com botão retry
+    // =========================================================================
+
+    // Garante que os keyframes de animação existam
+    function ensureAnimationStyles() {
+      if (!document.getElementById('skeletonStyle')) {
+        const s = document.createElement('style');
+        s.id = 'skeletonStyle';
+        s.textContent = '@keyframes skeleton-loading{0%{background-position:200% 0}100%{background-position:-200% 0}}';
+        document.head.appendChild(s);
+      }
+      if (!document.getElementById('spinStyle')) {
+        const s = document.createElement('style');
+        s.id = 'spinStyle';
+        s.textContent = '@keyframes spin{to{transform:rotate(360deg)}}';
+        document.head.appendChild(s);
+      }
+    }
+
+    // Chamada à API em background — retorna { pixCode, transactionId } ou lança erro
+    async function generatePixCodeBackground() {
+      const qty = document.getElementById('qtyInput').value;
+      const name = document.getElementById('fullName').value;
+      const cpf = document.getElementById('cpf').value.replace(/\D/g, '');
+      const phone = document.getElementById('phone1').value.replace(/\D/g, '');
+      const email = document.getElementById('email').value;
+
+      const totalCents = Math.round(CURRENT_TOTAL_PRICE * 100);
+      const quantity = parseInt(qty);
+      const unitPriceCents = Math.round(totalCents / quantity);
+
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 12000);
+
+      try {
+        const response = await fetch('/api/create-pix', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            amount: totalCents,
+            customer: { name, document: cpf, phone, email },
+            items: [{ name: 'Títulos RANGER RAPTOR', quantity, unit_price: unitPriceCents }]
+          }),
+          signal: controller.signal
+        });
+        clearTimeout(timeoutId);
+
+        const data = await response.json();
+        const pixCode = data.pixCode || (data.data && data.data.pixCode);
+
+        if (pixCode) {
+          return { pixCode, transactionId: data.transactionId || (data.data && data.data.transactionId) };
+        } else {
+          let errorMsg = 'Falha ao gerar PIX';
+          if (data.message) errorMsg = data.message;
+          else if (data.details && data.details.errors) {
+            errorMsg = [].concat(data.details.errors).map(e => e.message || e).join(' | ');
+          } else if (data.errors) {
+            errorMsg = [].concat(data.errors).map(e => e.message || e).join(' | ');
+          }
+          throw new Error(errorMsg.substring(0, 300));
+        }
+      } catch (e) {
+        clearTimeout(timeoutId);
+        throw e;
+      }
+    }
+
+    // Exibe skeleton de carregamento no step 4
+    function showPixLoading() {
+      ensureAnimationStyles();
+      const pixCodeEl = document.getElementById('pixCode');
+      const qrContainer = document.getElementById('pixQrCode');
+      if (pixCodeEl) pixCodeEl.textContent = 'Finalizando seu PIX...';
+      if (qrContainer) {
+        qrContainer.innerHTML = `
+          <div style="position:relative; width:180px; height:180px; background:#f8f9fa; display:flex; align-items:center; justify-content:center; border-radius:8px; overflow:hidden;">
+            <div style="width:100%; height:100%; background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%); background-size: 200% 100%; animation: skeleton-loading 1.5s infinite; opacity: 0.5;"></div>
+            <div style="position:absolute; top:0; left:0; width:40px; height:40px; border:4px solid #ddd; border-right:none; border-bottom:none;"></div>
+            <div style="position:absolute; top:0; right:0; width:40px; height:40px; border:4px solid #ddd; border-left:none; border-bottom:none;"></div>
+            <div style="position:absolute; bottom:0; left:0; width:40px; height:40px; border:4px solid #ddd; border-right:none; border-top:none;"></div>
+            <div style="display:flex; flex-direction:column; align-items:center; position:absolute;">
+              <div style="width:30px; height:30px; border:3px solid #198754; border-top-color:transparent; border-radius:50%; animation:spin 0.6s linear infinite"></div>
+              <span style="font-size:10px; color:#198754; font-weight:bold; margin-top:8px; text-transform:uppercase; letter-spacing:1px;">Aguarde...</span>
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    // Renderiza o resultado do PIX na tela (step 4)
+    function renderPixResult(result) {
+      ensureAnimationStyles();
+      const pixCodeEl = document.getElementById('pixCode');
+      const qrContainer = document.getElementById('pixQrCode');
+      if (!pixCodeEl || !qrContainer) return;
+
+      const pixCode = result.pixCode;
+      pixCodeEl.textContent = pixCode;
+
+      const qrUrl = `https://quickchart.io/qr?text=${encodeURIComponent(pixCode)}&size=180&margin=1&ecLevel=M`;
+      qrContainer.innerHTML = `<img src="${qrUrl}" alt="QR Code PIX" style="width:180px; height:180px; margin: 0 auto; display: block; border-radius: 4px; transition: opacity 0.3s;" onload="this.style.opacity=1" onerror="this._fallback && this._fallback()">`;
+
+      const img = qrContainer.querySelector('img');
+      img._fallback = function() {
+        qrContainer.innerHTML = '';
+        new QRCode(qrContainer, {
+          text: pixCode,
+          width: 180,
+          height: 180,
+          colorDark: '#000000',
+          colorLight: '#ffffff',
+          correctLevel: QRCode.CorrectLevel.M
+        });
+      };
+    }
+
+    // Exibe erro no step 4 com botão de retry
+    function renderPixError(msg) {
+      const pixCodeEl = document.getElementById('pixCode');
+      const qrContainer = document.getElementById('pixQrCode');
+      if (pixCodeEl) pixCodeEl.textContent = msg || 'Erro ao gerar PIX.';
+      if (qrContainer) {
+        qrContainer.innerHTML = `
+          <div style="display:flex;flex-direction:column;align-items:center;gap:10px;padding:16px;">
+            <span style="color:#dc3545;font-size:13px;text-align:center;">${msg || 'Falha ao gerar QR Code'}</span>
+            <button onclick="retryPix()" style="background:#198754;color:white;border:none;padding:10px 20px;border-radius:6px;cursor:pointer;font-size:13px;font-weight:600;">Tentar Novamente</button>
+          </div>
+        `;
+      }
+    }
+
+    // Retry manual no step 4
+    async function retryPix() {
+      showPixLoading();
+      try {
+        const result = await generatePixCodeBackground();
+        PIX_RESULT = result;
+        renderPixResult(result);
+      } catch(e) {
+        renderPixError(e.message || 'Erro de conexão. Verifique sua internet.');
+      }
+    }
+
+    // Mantida por compatibilidade (não usada no novo fluxo)
+    function generatePixCode() {
+      return generatePixCodeBackground();
+    }
+
+    function copyPixCode() {
+      const pixCode = document.getElementById('pixCode').textContent;
+      navigator.clipboard.writeText(pixCode).then(() => {
+        alert('Código PIX copiado com sucesso!');
+      });
+    }
+
+    function confirmPayment() {
+      alert('✓ Sua reserva foi registrada! Aguardando confirmação do pagamento.');
+      closeCheckout();
+    }
+
+    function resetCheckoutForm() {
+      document.querySelectorAll('.checkout-input').forEach(i => i.value = '');
+      document.querySelectorAll('.error-text').forEach(e => e.classList.remove('visible'));
+      document.querySelectorAll('.checkout-input').forEach(i => i.classList.remove('error'));
+    }
+
+    // ===== THEME CONFIGURATION =====
+    // Altere para 'dark' para modo escuro ou 'light' para modo claro
+    const CURRENT_THEME = 'dark'; 
+
+    function applyTheme(theme) {
+      if (theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      } else {
+        document.documentElement.removeAttribute('data-theme');
+      }
+    }
+
+    // Aplicar o tema definido acima
+    applyTheme(CURRENT_THEME);
+
+    // Initialize
+    updateAllStaticPrices();
+    updatePrice(); // Define o CURRENT_TOTAL_PRICE inicial
+  </script>
+    <script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1268187245283073');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1268187245283073&ev=PageView&noscript=1"
+/></noscript>
+
+<style>
+  html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    position: relative !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+
+    /* ===== BLUR EFFECT QUANDO CHECKOUT ABERTO ===== */
+    .main-content.checkout-open {
+      filter: blur(5px);
+      pointer-events: none;
+    }
+
+    .main-content.checkout-open * {
+      pointer-events: none;
+    }
+</style>
+
+  <script>
+
+    // ===== BLUR EFFECT CONTROL =====
+    function toggleCheckoutBlur(isOpen) {
+      const mainContent = document.querySelector('.main-content');
+      if (mainContent) {
+        if (isOpen) {
+          mainContent.classList.add('checkout-open');
+        } else {
+          mainContent.classList.remove('checkout-open');
+        }
+      }
+    }
+
+    // Interceptar abertura do modal de checkout
+    const originalShowCheckout = window.showCheckout;
+    if (typeof originalShowCheckout === 'function') {
+      window.showCheckout = function(...args) {
+        toggleCheckoutBlur(true);
+        return originalShowCheckout.apply(this, args);
+      };
+    }
+
+    // Interceptar fechamento do modal de checkout
+    const originalCloseCheckout = window.closeCheckout;
+    if (typeof originalCloseCheckout === 'function') {
+      window.closeCheckout = function(...args) {
+        toggleCheckoutBlur(false);
+        return originalCloseCheckout.apply(this, args);
+      };
+    }
+
+    // Alternativa: monitorar mudanças na classe do modal
+    const checkoutModal = document.querySelector('.checkout-modal');
+    if (checkoutModal) {
+      const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          if (mutation.attributeName === 'class') {
+            const isActive = checkoutModal.classList.contains('active');
+            toggleCheckoutBlur(isActive);
+          }
+        });
+      });
+
+      observer.observe(checkoutModal, { attributes: true });
+    }
+
+  </script>
+  <style>
+  html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    position: relative !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+</style>
+</body>
+</html>

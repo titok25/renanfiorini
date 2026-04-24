@@ -1,0 +1,11 @@
+# Configuração do Nixpacks para Railway
+# Garante Node.js 20 LTS (mais estável e performático que 18)
+
+[phases.setup]
+nixPkgs = ["nodejs_20"]
+
+[phases.install]
+cmds = ["npm install --production"]
+
+[start]
+cmd = "node server.js"
